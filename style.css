@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap');
+body{
+    margin:0;
+}
+
+.main-section{
+    padding: 20px;
+}
+
+.image-container{
+    height: 500px;
+    background-image: url('static/img/milano.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    font-size: 64px;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 24px;
+   font-weight: 400;
+}
+
+h1,h3{
+    margin-bottom: 0;
+}
+
+body{
+      font-family: "Montserrat", sans-serif;
+
+}
+
+.Autore{
+    font-weight: 600;
+}
+
+h6{
+    padding: 22px;
+    margin:56px 0 0 ;
+    color: white;
+    
+}
+
+.correlati{
+    border-radius: 6px;
+        background: linear-gradient(126deg, #3e99ed, transparent);
+
+}
+
+
+li{
+    padding: 6px 0 22px;
+    border: 0 0 0;
+    color: dfdfdf;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    width: 100%;
+    background-color: rgba(12, 12, 12, 0.861);
+    color: white;
+}
+#home{
+    color: white;
+}
